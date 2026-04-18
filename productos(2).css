@@ -1,0 +1,82 @@
+
+/* ========== RESET Y MODELO DE CAJAS ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== ESTILOS GENERALES ========== */
+body {
+    background: #F5F5EB;
+    font-family: 'Times New Roman', serif;
+}
+
+/* ========== CONTENEDOR PRINCIPAL ========== */
+#contenedor {
+    width: 90%;
+    max-width: 1220px;
+    margin: 2rem auto;
+    background: rgb(240,240,240);
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* ========== ENCABEZADO ========== */
+header {
+    background:#B3907A;
+    color:white;
+    text-align: center;
+    padding: 2rem;
+}
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    font-style: italic;
+    color:#ffffff;
+}
+
+/* ========== MENÚ DE NAVEGACIÓN ========== */
+nav {
+    background: #EFE7DA;
+    color:black;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* ========== SECCIÓN PRINCIPAL ========== */
+section {
+    background: #E1DACA;
+    padding: 1.8rem;
+    overflow: hidden;  /* Contiene los elementos flotados */
+}
+
+
+/* ========== PIE DE PÁGINA ========== */
+footer {
+    background: #ffffff;
+    color:#B3907A;
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 0.9rem;
+}
+
+/* ========== MEDIA QUERY (RESPONSIVE) ========== */
+@media (max-width: 768px) {
+    article, aside {
+        width: 100%;
+        float: none;
+        margin-bottom: 1rem;
+    }
+    section {
+        padding: 1rem;
+    }
+}
+                        
